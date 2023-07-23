@@ -100,11 +100,6 @@ export default function Home() {
       {/* Display the ConnectWallet component if not connected */}
       {!isConnected && (
         <div className={styles.thirdWeb}>
-          <img
-            src="thirdweb-logo-transparent-white.svg"
-            alt="Your image description"
-            width={200}
-          />
           <ConnectWallet theme="dark" />
         </div>
       )}
